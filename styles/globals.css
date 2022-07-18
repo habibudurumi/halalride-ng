@@ -1,0 +1,54 @@
+/** @format */
+@font-face {
+  font-family: "birds";
+  src: url(../public/fonts/birds.ttf);
+}
+@font-face {
+  font-family: "regular";
+  src: url(../public/fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "medium";
+  src: url(../public/fonts/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: "bold";
+  src: url(../public/fonts/Raleway-Black.ttf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .lead {
+    @apply font-bold tracking-widest uppercase text-green-800 text-xl md:text-xl mt-8 lg:mt-0 text-center;
+  }
+  .fa-icon {
+    @apply text-green-800 text-2xl hover:cursor-pointer hover:scale-110 transition-all z-50;
+  }
+  .social-icon {
+    @apply mr-6 text-xl opacity-50 hover:opacity-95 hover:scale-105 transition-all duration-300;
+  }
+  .width {
+    @apply mx-4 md:mx-10 my-4;
+  }
+
+  .main {
+    @apply flex flex-col justify-center;
+  }
+
+  .input {
+    @apply border border-green-800 p-2 my-2 focus:border-2 focus:border-green-800 outline-none text-sm md:text-base font-ralewaMedium;
+  }
+
+  .head {
+    @apply text-sm md:text-base uppercase font-ralewaMedium font-bold tracking-widest;
+  }
+  .body {
+    @apply opacity-60 text-sm md:text-base tracking-wider font-ralewayRegular;
+  }
+  .div {
+    @apply my-4  md:my-0;
+  }
+}
