@@ -13,9 +13,11 @@ const Carousel = () => {
   const images = [one, two, three];
   const image = images[value];
 
+  const len = images.length - 1;
+
   useEffect(() => {
     let slider = setInterval(() => {
-      setValue((value + 1) % images.length);
+      setValue(value === len ? 0 : value + 1);
     }, 3000);
 
     return () => clearInterval(slider);
@@ -23,14 +25,10 @@ const Carousel = () => {
   }, [value]);
 
   const next = () => {
-    setValue((value + 1) % images.length);
+    setValue(value === len ? 0 : value + 1);
   };
   const prev = () => {
-    if (value !== 1) {
-      setValue(value - 1);
-    } else if (value === 1) {
-      setValue(images.length);
-    }
+    setValue(value < 1 ? len : value - 1);
   };
   return (
     <section className=' width h-fit my-4 z-20 relative'>
