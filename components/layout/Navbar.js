@@ -17,9 +17,9 @@ const Navbar = () => {
   const { pathname } = useRouter();
 
   return (
-    <nav className='sticky top-0 w-full z-50 font-ralewaBold bg-white bg-opacity-90 bg-blend-luminosity'>
+    <nav className='lg:sticky top-0 right-0 w-full z-50 font-ralewayBold bg-white bg-opacity-90 bg-blend-luminosity '>
       <div className='mx-auto  max-w-[1240px]'>
-        <div className='flex justify-between items-center width lg:mx-10 py-4 lg:py-4'>
+        <div className='flex justify-between items-center width lg:mx-10'>
           <Link href='/'>
             <a>
               <Image src={Logo} height={50} width={100} alt='logo-image' />

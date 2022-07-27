@@ -39,11 +39,11 @@
   }
 
   .input {
-    @apply border border-green-800 p-2 my-2 focus:border-2 focus:border-green-800 outline-none text-sm md:text-base font-ralewaMedium;
+    @apply border border-green-800 p-2 my-2 focus:border-2 focus:border-green-800 outline-none text-sm md:text-base;
   }
 
   .head {
-    @apply text-sm md:text-base uppercase font-ralewaMedium font-bold tracking-widest;
+    @apply text-sm md:text-base uppercase font-bold tracking-widest;
   }
   .body {
     @apply opacity-60 text-sm md:text-base tracking-wider font-ralewayRegular;

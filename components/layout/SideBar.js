@@ -5,7 +5,7 @@ import { FaTimes } from "react-icons/fa";
 
 const SideBar = ({ links, setMenu, pathname }) => {
   return (
-    <nav className='absolute top-0 z-50 right-0 h-screen bg-black bg-opacity-100 text-white w-full'>
+    <nav className='fixed top-0 z-50 right-0 h-full bg-black bg-opacity-95 text-white w-full'>
       <FaTimes
         onClick={() => setMenu(false)}
         className='text-red-800 absolute fa-icon top-6 right-4'
