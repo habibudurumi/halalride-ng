@@ -46,7 +46,7 @@
     @apply text-sm md:text-base uppercase font-bold tracking-widest;
   }
   .body {
-    @apply opacity-60 text-sm md:text-base tracking-wider font-ralewayRegular;
+    @apply text-green-700 text-sm md:text-base tracking-wider font-ralewayRegular;
   }
   .div {
     @apply my-4  md:my-0;

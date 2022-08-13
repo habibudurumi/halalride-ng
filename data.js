@@ -1,9 +1,14 @@
 /** @format */
 
 import { AiFillSafetyCertificate, AiFillSetting } from "react-icons/ai";
-import { FaMedal } from "react-icons/fa";
+import { FaMedal, FaHome, FaPortrait, FaEnvelope } from "react-icons/fa";
 import Google from "./public/assets/google-play.png";
 import Apple from "./public/assets/apple.png";
+
+export const links = [
+  { id: 1, url: "/", text: "home", icon: <FaHome /> },
+  { id: 2, url: "/about", text: "about", icon: <FaEnvelope /> },
+];
 
 export const data = [
   {
@@ -31,12 +36,12 @@ export const info = [
   {
     icon: <AiFillSafetyCertificate />,
     head: "secured",
-    text: "A fast, efficient and on demand tricycle equest at your palm",
+    text: "Its safe and secured, with cyber monitoring of drivers and passangers from pick to drop",
   },
   {
     icon: <FaMedal />,
     head: "Accessible",
-    text: "A fast, efficient and on demand tricycle equest at your palm",
+    text: "It's fast, comfortable, keke at your palm (phone)",
   },
 ];
 

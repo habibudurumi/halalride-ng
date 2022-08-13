@@ -6,11 +6,8 @@ import Logo from "../../public/assets/halal-logo-green.png";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import SideBar from "./SideBar";
-const links = [
-  { id: 1, url: "/", text: "home", icon: <FaHome /> },
-  { id: 2, url: "/about", text: "about", icon: <FaPortrait /> },
-  { id: 3, url: "/contact", text: "contact", icon: <FaEnvelope /> },
-];
+import { links } from "../../data";
+
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
 

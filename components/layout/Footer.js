@@ -33,8 +33,8 @@ const Footer = () => {
       </div>
 
       <p className='flex items-center justify-center font-ralewaMedium tracking-wide opacity-50'>
-        <FaRegCopyright className='mr-2' /> All Right Reserved |{" "}
-        {new Date().getFullYear()}
+        <FaRegCopyright className='mr-2' />
+        Halal Ride, All Rights Reserved | {new Date().getFullYear()}
       </p>
     </footer>
   );
