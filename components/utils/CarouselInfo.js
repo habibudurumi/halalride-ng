@@ -14,7 +14,7 @@ const CarouselInfo = () => {
           An inter-city tricycle transport (keke) hailing App for passangers.
         </p>
         <button className=' text-green-800 bg-gray-100 uppercase text-sm font-ralewayMedium font-bold tracking-widest py-2 px-6 mt-4 hover:bg-white hover:scale-105 transition-all duration-300'>
-          <Link href='#'>
+          <Link href='https://halalride-14a41.web.app'>
             <a>Get Started</a>
           </Link>
         </button>
