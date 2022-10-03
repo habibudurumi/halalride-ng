@@ -10,6 +10,13 @@ export const links = [
   { id: 2, url: "/about", text: "about", icon: <FaEnvelope /> },
 ];
 
+export const downloadLinks = [
+  { name: "Google PlayStore", url: "" },
+  { name: "Apple store", url: "" },
+  { name: "apkpure", url: "" },
+  { name: "amazon app store", url: "" },
+];
+
 export const data = [
   {
     id: 1,
@@ -55,3 +62,4 @@ export const stats = [
   { number: "100+", text: "professional riders" },
   { number: "1k+", text: "app users" },
 ];
+
