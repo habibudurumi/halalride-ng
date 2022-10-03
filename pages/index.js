@@ -13,10 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Halal Ride</title>
-        <meta
-          name='description'
-          content='Halal Ride Nigeria'
-        />
+        <meta name='description' content='Halal Ride Nigeria' />
         <link rel='icon' href='/favicon.png' />
       </Head>
       <Frame>
