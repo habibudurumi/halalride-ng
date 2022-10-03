@@ -62,3 +62,4 @@ export const stats = [
   { number: "100+", text: "professional riders" },
   { number: "1k+", text: "app users" },
 ];
+
